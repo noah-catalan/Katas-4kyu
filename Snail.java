@@ -1,15 +1,4 @@
 public class Snail {
-
-    public static void main(String[] args) {
-        int[][] a = {{1,2,3},{4,5,6},{7,8,9}};
-        int[] x = snail(a);
-
-        for(int i=0;i<x.length;i++){
-            System.out.println(x[i]);
-        }
-
-    }
-
     public static int[] snail(int[][] array) {
         int[] desenrollado = new int[array.length * array[0].length];
 
